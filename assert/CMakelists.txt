@@ -1,0 +1,4 @@
+cmake_minimum_required(VERSION 3.14)
+project(multifile)
+set(SOURCE_FILES main.cpp task1.cpp tests.cpp)
+add_executable(${PROJECT_NAME} ${SOURCE_FILES})
